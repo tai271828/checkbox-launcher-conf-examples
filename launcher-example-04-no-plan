@@ -1,0 +1,15 @@
+#!/usr/bin/env checkbox-cli
+[launcher]
+launcher_version = 1
+
+[config]
+config_filename = /home/ubuntu/checkbox.conf
+
+[test selection]
+forced = yes
+
+[ui]
+type = silent
+auto_retry = yes
+max_attempts = 3
+delay_before_retry = 15

@@ -1,0 +1,14 @@
+#!/usr/bin/env checkbox-cli
+[launcher]
+launcher_version = 1
+
+[config]
+config_filename = /home/ubuntu/checkbox.conf
+
+[test plan]
+unit = com.canonical.certification::sru
+forced = yes
+
+[test selection]
+forced = yes
+
